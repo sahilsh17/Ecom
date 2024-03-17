@@ -7,7 +7,8 @@ const ShopContextProvider = (props) => {
 
   return (
     <ShopContext.Provider value={contextValue} >
-
+      {props.children}
     </ShopContext.Provider>
   )
 }
+export default ShopContextProvider;
