@@ -12,6 +12,10 @@ export const DescriptionBox = () => {
           Reviews (122)
         </div>
       </div>
+      <div className='descriptionbox-description'>
+        <p>Static text</p>
+        <p>Static text 2</p>
+      </div>
     </div>
   )
 }
